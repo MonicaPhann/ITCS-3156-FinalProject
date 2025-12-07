@@ -5,7 +5,7 @@ This project aims to predict Airbnb housing prices using machine learning techni
 
 The project focuses on understanding the relationships between numeric, categorical, and geographical features in the dataset and uses them to predict the log-transformed and actual prices of Airbnb listings. The dataset is from https://www.kaggle.com/datasets/rupindersinghrana/airbnb-price-dataset/data.
 
-Dataset
+## Dataset
 
 Source: Kaggle – Airbnb Price Dataset
 
@@ -21,7 +21,7 @@ Categorical: property_type, room_type, cancellation_policy, bed_type, city
 
 Target Variable: log_price (logarithmic form of the price)
 
-Data Preprocessing
+## Data Preprocessing
 
 Missing values in numeric columns filled with median values
 
@@ -31,7 +31,7 @@ One-hot encoding applied to categorical variables
 
 Numeric and categorical features combined into a sparse matrix for efficient modeling
 
-Machine Learning Models
+## Machine Learning Models
 
 Two models were implemented:
 
@@ -47,7 +47,7 @@ Linear regression with L2 regularization
 
 Helps prevent overfitting and serves as a linear baseline
 
-Evaluation Metrics
+## Evaluation Metrics
 
 Models were evaluated using:
 
@@ -75,7 +75,7 @@ RMSE: 0.48
 
 MAE: 0.36
 
-Observation: Random Forest outperformed Ridge Regression due to its ability to capture non-linear relationships between features and target.
+## Observation: Random Forest outperformed Ridge Regression due to its ability to capture non-linear relationships between features and target.
 
 Feature Analysis
 
